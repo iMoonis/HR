@@ -1,0 +1,106 @@
+{
+  "employees": [
+    {
+      "name": "Silas Regan",
+      "department": "IT",
+      "position": "Frontend",
+      "gender": [
+        "Male"
+      ],
+      "age": 35,
+      "dBirth": "2002-02-26",
+      "id": 14
+    },
+    {
+      "name": "Danish Cox",
+      "department": "IT",
+      "position": "Frontend",
+      "gender": [
+        "Female"
+      ],
+      "age": 24,
+      "dBirth": "1991-07-16",
+      "id": 15
+    },
+    {
+      "name": "Nicholas Runolfsdottir",
+      "department": "Accounting",
+      "position": "Accounting Officer",
+      "gender": [
+        "Female"
+      ],
+      "age": 24,
+      "dBirth": "1997-07-07",
+      "id": 15
+    },
+    {
+      "name": "Nicholas Runolfsdottir",
+      "department": "Accounting",
+      "position": "Accounting Officer",
+      "gender": [
+        "Female"
+      ],
+      "age": 24,
+      "dBirth": "1997-07-07",
+      "id": 18
+    },
+    {
+      "name": "Nicholas Runolfsdottir",
+      "department": "Accounting",
+      "position": "Accounting Officer",
+      "gender": [
+        "Female"
+      ],
+      "age": 24,
+      "dBirth": "1997-07-07",
+      "id": 19
+    },
+    {
+      "name": "Nicholas Schulist",
+      "department": "Marketing",
+      "position": "Marketing Officer",
+      "gender": [
+        "Male"
+      ],
+      "age": 28,
+      "dBirth": "1993-07-07",
+      "id": 14
+    }
+  ],
+  "fields": [
+    {
+      "key": "name",
+      "label": "Full Name",
+      "sortable": true,
+      "sortDirection": "desc"
+    },
+    {
+      "key": "department",
+      "label": "Department",
+      "sortable": true,
+      "sortDirection": "desc"
+    },
+    {
+      "key": "position",
+      "label": "Position",
+      "sortable": true,
+      "sortDirection": "desc"
+    },
+    {
+      "key": "gender.[0]",
+      "label": "Gender",
+      "sortable": true,
+      "sortDirection": "desc"
+    },
+    {
+      "key": "dBirth",
+      "label": "Date of Birth",
+      "sortable": true,
+      "class": "text-center"
+    },
+    {
+      "key": "actions",
+      "label": "Actions"
+    }
+  ]
+}
